@@ -1,0 +1,26 @@
+.contacts{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.btn {
+    margin-left: 10px;
+    border: none;
+    background: none;
+    box-shadow: rgba(14, 5, 5, 0.16) 0px 1px 4px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        background: rgba(32, 32, 237, 0.5);
+        ;
+    }
+}
